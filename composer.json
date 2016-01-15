@@ -1,0 +1,28 @@
+{
+    "name": "kfreiman/restful",
+    "description": "Client for RESTful APIs, based on Guzzle's Client",
+    "keywords": ["restful", "guzzle", "client", "api", "extensible"],
+    "homepage": "https://github.com/kfreiman/restful",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirill Freiman",
+            "email": "k.freiman@ya.ru",
+            "homepage": "http://kfreiman.github.io",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kfreiman/restful/issues",
+        "source": "https://github.com/kfreiman/restful"
+    },
+    "autoload": {
+        "psr-4": {
+            "kfreiman\\restful\\": ""
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
