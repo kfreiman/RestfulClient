@@ -1,9 +1,8 @@
 It is HTTP-client with main focus to the standart RESTful API.
 
-Improvements, regarding the the Guzzle's Client:
-    - Substitution params in URI by tokens
+##Improvements, regarding the the Guzzle's Client:
 
-## Substitution params in URI by tokens
+### Substitution params in URI by tokens
 ```php
 <?php
 require 'vendor/autoload.php';
